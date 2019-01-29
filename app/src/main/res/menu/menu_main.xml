@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="matveyeva.notes.Main">
+    <item android:id="@+id/dark_theme"
+          android:orderInCategory="101"
+          app:showAsAction="never"
+          android:title="Dark theme"/>
+    <item android:id="@+id/light_theme"
+          android:orderInCategory="102"
+          app:showAsAction="never"
+          android:title="Light theme"/>
+
+
+</menu>
